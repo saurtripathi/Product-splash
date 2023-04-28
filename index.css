@@ -15,7 +15,7 @@ h1 {
     font-weight: 100;
     color: #f4f1de;
     text-shadow:  1px white;
-
+    text-transform: capitalize;
 }
 
 
@@ -34,12 +34,11 @@ h1 {
 
 .main-section {
     height: 50%;
-    /* border: 5px solid red; */
-    /* color: #f2e8cf; */
     background-color: #f8f9fa;
     text-align: center;
     flex-direction: column;
-    /* justify-content: space-between; */
+
+    
 
 }
 
@@ -50,10 +49,11 @@ h2 {
 }
 
 h3 {
-    /* margin: 1em auto; */
-    margin-top: 0;
+    margin: 1em auto;
+text-transform: uppercase;
     color:#621708;
-    font-weight: 600;
+    font-weight: 900;
+    font-size: 1.5em;
     
 }
 
@@ -68,12 +68,12 @@ h3 {
 }
 
 .image-container {
-    max-width: 150px;
+    max-width: 220px;
     line-height: 0;
     margin: 1em auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 0.1em;
     /* border: 5px solid green; */
 }
 
@@ -85,7 +85,7 @@ img {
     width: 50px;
     height: 50px;
     background-size: cover;
-    border-radius: 50%;
+    border-radius: 25%;
 }
 
 img:hover {
@@ -96,6 +96,7 @@ img:hover {
 }
 
 form {
+    font-size: 1em;
     font-family: inherit;
     display: flex;
     flex-direction: column;
@@ -106,7 +107,7 @@ span {
     border-top: 5px solid whitesmoke;
     order: -1;
     color: whitesmoke;
-    ;
+    text-transform: uppercase;
 }
 
 p {
@@ -132,4 +133,10 @@ button {
 strong {
     color: #caffbf;
     font-weight: 400;
+}
+
+.description {
+    color:black;
+    font-size: 1em;
+    font-family: inherit;
 }
