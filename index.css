@@ -17,7 +17,7 @@ h1 {
     color: #f4f1de;
     text-shadow: 1px white;
     text-transform: capitalize;
-    margin:0.5em
+    margin: 0.5em
 }
 
 
@@ -112,10 +112,10 @@ form {
 
 span {
     margin: 0 auto;
-    border-top: 5px solid whitesmoke;
+    border-top: 5px solid #f8961e;
     order: -1;
     color: whitesmoke;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .info {
@@ -149,6 +149,22 @@ button {
     padding: 0.5em;
 
 }
+input[type="text"]:hover,
+input[type="text"]:focus,
+input[type="email"]:hover,
+input[type="email"]:focus
+ {
+    outline: none;
+    border: 2px solid #adb5bd;
+    background-color: #eae4e9;
+}
+
+button:focus,button:hover {
+    background-color: #db7c26;
+    cursor: pointer;
+}
+
+
 
 strong {
     color: #caffbf;
@@ -161,4 +177,68 @@ button {
     color: white;
     text-transform: uppercase;
     font-weight: 700;
+}
+
+@media(min-width:576px) {
+    body {
+        display: flex;
+      
+    }
+
+    .main-section,
+    .intro-section {
+        width: 50%;
+    }
+    .intro-section {
+        min-height: 100vh;
+    }
+    .main-section {
+        justify-content: center;
+        /* margin: 0 5em 0; */
+        margin: auto;
+    }
+
+    h1 {
+        /* font-size: 3rem; */
+        font-size: 5vw;
+        font-weight: 900;
+        text-shadow: 2px 2px #ddb892;
+        margin: 0 0.25em 0;
+    }
+
+    h2 {
+
+        font-size: 3vw;
+        font-weight: 700;
+        color: #99582a;
+        margin-bottom: 0.2em;
+    }
+
+    .description {
+        /* padding-bottom: 2em; */
+        margin-bottom: 0.75em;
+        max-width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        /* font-size: 0.1vw; */
+    }
+
+    input[type="text"],
+    input[type="email"],
+    button {
+
+        padding: 1em;
+        margin-bottom: 1em;
+        text-align: center;
+    }
+    h3 {
+        margin-bottom: 0.75em;
+        font-size: 2vw;
+    }
+
+    .info {
+        color: #858585;
+        font-size: 0.5vw;
+    }
+
 }
