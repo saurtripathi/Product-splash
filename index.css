@@ -42,13 +42,13 @@ h3 {
     margin-bottom: 1em;
 }
 
-.info,.description {
+.description {
     font-size: 1rem;
     text-align: center;
 }
 
 .info {
-    font-family: inherit;
+    font-size: 0.5rem;
     font-weight: lighter;
     color: #1b263b;
     margin: 1em 2em 0;
