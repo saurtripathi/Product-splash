@@ -54,6 +54,7 @@ h3 {
     margin-top: 0;
     color:#621708;
     font-weight: 600;
+    
 }
 
 .sub {
@@ -67,12 +68,12 @@ h3 {
 }
 
 .image-container {
-    max-width: 400px;
+    max-width: 150px;
     line-height: 0;
-    margin: 2em auto;
+    margin: 1em auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 0.1em;
+    gap: 1em;
     /* border: 5px solid green; */
 }
 
