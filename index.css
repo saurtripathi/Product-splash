@@ -1,7 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    color: #404040;
     height: 100vh;
 }
 
@@ -12,16 +11,20 @@ body {
 }
 
 h1 {
-    font-weight: 400;
-    text-shadow: 0 2px #a7c957;
+    font-size: 2em;
+    font-weight: 100;
+    color: #f4f1de;
+    text-shadow:  1px white;
+
 }
 
 
 .intro-section {
     height: 50%;
     /* border: 1px solid red; */
-    color: #6a994e;
-    background-color: #fffcf2;
+
+    background: #fffcf2 url("images/main-image.jpg");
+    background-size: cover;
     font-size: 1em;
     text-align: center;
     flex-direction: column;
@@ -32,8 +35,8 @@ h1 {
 .main-section {
     height: 50%;
     /* border: 5px solid red; */
-    color: #f2e8cf;
-    background-color: #6a994e;
+    /* color: #f2e8cf; */
+    background-color: #f8f9fa;
     text-align: center;
     flex-direction: column;
     /* justify-content: space-between; */
@@ -48,6 +51,12 @@ h2 {
 
 h3 {
     margin: 0 auto;
+    
+}
+
+.sub {
+    color: #f4f1de;
+    margin-bottom: 1em;
 }
 
 .intro-section,
@@ -75,6 +84,7 @@ img {
     background-size: cover;
     border-radius: 50%;
 }
+
 img:hover {
     width: 150px;
     height: 150px;
@@ -90,20 +100,33 @@ form {
 
 span {
     margin: 0 auto;
-    border-top: 5px solid #ccd5ae;
+    border-top: 5px solid whitesmoke;
     order: -1;
+    color: whitesmoke;
+    ;
 }
 
 p {
-    display: block;
-    margin-top: 0;
-    font-size: 1em;
-    font-weight: 100;
+    font-family: inherit;
+    margin: 0.5em;
+    /* border: 1px solid red; */
+    font-size: 0.5rem;
+    font-weight: lighter;
+    color: #adb5bd;
 }
 
 input[type="text"],
 input[type="email"],
 button {
-    margin: 0 1em 1em;
+    margin: 0 2em 0.5em;
+    border-radius: 5px;
+    border: 1px solid #adb5bd;
+    ;
+    padding: 0.5em;
 
+}
+
+strong {
+    color: #caffbf;
+    font-weight: 400;
 }
